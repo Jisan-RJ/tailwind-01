@@ -2,13 +2,12 @@ import React from 'react'
 
 const Banner = () => {
   return (
-    <section className='bg-ban py-[200px]'>
+    <section className='bg-ban bg-no-repeat absolute  py-[300px] w-full z-[-1] '>
         <div className='max-w-container mx-auto'>
-            <div className='w-[48%]'>
-                <h4 className='font-kan font-normal text-[22px]'>New Arrival</h4>
-                <h1 className='font-kan font-bold text-[52px] leading-[55px] pt-[30px] pb-[20px]'>Discover <span className='text-green-200'>Our New</span> Collection</h1>
-                <p className='font-kan font-light text-[17px] pb-[52px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
-                <a className='px-[60px] py-[16px] border bg-green-400 rounded-[40px] font-kan font-medium text-[20px]'>Buy Now</a>
+            <div className='w-50% mx-auto flex justify-center flex-col items-center'>
+                <h1 className='font-inter font-bold text-[75px] text-white text-center leading-[82px]'>We Help brands with high quality services</h1>
+                <p className='font-inter font-normal text-[16px] text-white text-center w-[45%] pt-[51px] pb-[40px]'>There are many variations of passages of Lorem Ipsum available, but themajority  have suffered alteration in some form, by injected humour, or randomised words which don't look.</p>
+                <a className='px-[42px] py-[15px] bg-[#6A4DF4] rounded-[10px] font-inter font-semibold text-[20px] text-white'>Get Started</a>
             </div>
         </div>
     </section>

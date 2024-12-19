@@ -1,11 +1,11 @@
 import React from 'react'
 import Header from './components/Header'
 import Banner from './components/Banner'
-import Collection from './components/Collection'
-import Space from './components/Space'
-import Browse from './components/Browse'
-import Products from './components/Products'
-import Rooms from './components/Rooms'
+import Success from './components/Success'
+import Service from './components/Service'
+import Work from './components/Work'
+import Choose from './components/Choose'
+import Client from './components/Client'
 import Footer from './components/Footer'
 
 const App = () => {
@@ -13,11 +13,11 @@ const App = () => {
     <>
       <Header/>
       <Banner/>
-      <Collection/>
-      <Space/>
-      <Browse/>
-      <Products/>
-      <Rooms/>
+      <Success/>
+      <Service/>
+      <Work/>
+      <Choose/>
+      <Client/>
       <Footer/>
     </>
   )
