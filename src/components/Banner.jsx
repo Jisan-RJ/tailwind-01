@@ -1,8 +1,8 @@
 import React from 'react'
-
+import ban from "../assets/ban.png"
 const Banner = () => {
   return (
-    <section className='bg-ban bg-no-repeat absolute  py-[300px] w-full z-[-1] '>
+    <section className='bg-no-repeat absolute  py-[300px] w-full z-[-1] ' style={{backgroundImage: `url(${ban})`}} >
         <div className='max-w-container mx-auto'>
             <div className='w-50% mx-auto flex justify-center flex-col items-center'>
                 <h1 className='font-inter font-bold text-[75px] text-white text-center leading-[82px]'>We Help brands with high quality services</h1>
